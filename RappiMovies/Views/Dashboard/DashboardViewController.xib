@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DashboardViewController" customModule="RappiMovies" customModuleProvider="target">
+            <connections>
+                <outlet property="searchTextField" destination="cBI-ea-plM" id="ZU9-9a-aCz"/>
+                <outlet property="segmentedControl" destination="XWE-Vz-PUC" id="srg-pm-TtQ"/>
+                <outlet property="tableView" destination="hAY-tL-erv" id="zEB-Qh-QSw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search movie" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cBI-ea-plM">
+                    <rect key="frame" x="41" y="40" width="293" height="30"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="F9K-3H-2u3"/>
+                    </constraints>
+                    <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <action selector="seacrhMovie:" destination="-1" eventType="editingChanged" id="qYT-Ru-zED"/>
+                    </connections>
+                </textField>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="XWE-Vz-PUC">
+                    <rect key="frame" x="54.5" y="78" width="266" height="29"/>
+                    <segments>
+                        <segment title="Popular"/>
+                        <segment title="Top"/>
+                        <segment title="Upcomming"/>
+                    </segments>
+                    <connections>
+                        <action selector="switchMovieOrder:" destination="-1" eventType="valueChanged" id="xdT-Hz-vUo"/>
+                    </connections>
+                </segmentedControl>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hAY-tL-erv">
+                    <rect key="frame" x="0.0" y="114" width="375" height="553"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="4dR-gZ-EJh"/>
+                        <outlet property="delegate" destination="-1" id="baT-4H-Suw"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hAY-tL-erv" secondAttribute="trailing" id="6f9-Qt-5Le"/>
+                <constraint firstItem="hAY-tL-erv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="TLK-Zv-dxl"/>
+                <constraint firstItem="cBI-ea-plM" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="UqJ-a9-r3h"/>
+                <constraint firstItem="XWE-Vz-PUC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YWq-kx-A1j"/>
+                <constraint firstItem="cBI-ea-plM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="41" id="Yat-IO-ogu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cBI-ea-plM" secondAttribute="trailing" constant="41" id="i6B-Hp-V87"/>
+                <constraint firstItem="XWE-Vz-PUC" firstAttribute="top" secondItem="cBI-ea-plM" secondAttribute="bottom" constant="8" id="l5M-lO-0rn"/>
+                <constraint firstItem="hAY-tL-erv" firstAttribute="top" secondItem="XWE-Vz-PUC" secondAttribute="bottom" constant="8" id="po2-Ib-h3Z"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hAY-tL-erv" secondAttribute="bottom" id="wLk-7s-PXw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

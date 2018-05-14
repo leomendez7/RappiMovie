@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8A0EA9DADE805108A69F1B /* Pods_RappiMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C965F47A0C4BA2382541EE /* Pods_RappiMovies.framework */; };
+		BD0CA3EDB869A47D0EB9001B /* Pods_RappiMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012290CA88D48C1B421C42F /* Pods_RappiMoviesTests.framework */; };
+		EC26BE7720AA27FB00A312E0 /* ImageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26BE7520AA27FB00A312E0 /* ImageDetailsViewController.swift */; };
+		EC26BE7820AA27FB00A312E0 /* ImageDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26BE7620AA27FB00A312E0 /* ImageDetailsViewController.xib */; };
+		EC295BAD20A938F00063162E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC295BAB20A938F00063162E /* DetailViewController.swift */; };
+		EC295BAE20A938F00063162E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC295BAC20A938F00063162E /* DetailViewController.xib */; };
+		EC29C26E20A5390200323EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C26D20A5390200323EE9 /* AppDelegate.swift */; };
+		EC29C27020A5390200323EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C26F20A5390200323EE9 /* ViewController.swift */; };
+		EC29C27320A5390200323EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC29C27120A5390200323EE9 /* Main.storyboard */; };
+		EC29C27620A5390200323EE9 /* RappiMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC29C27420A5390200323EE9 /* RappiMovies.xcdatamodeld */; };
+		EC29C27820A5390400323EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC29C27720A5390400323EE9 /* Assets.xcassets */; };
+		EC29C27B20A5390400323EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC29C27920A5390400323EE9 /* LaunchScreen.storyboard */; };
+		EC29C28620A5390400323EE9 /* RappiMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C28520A5390400323EE9 /* RappiMoviesTests.swift */; };
+		EC29C29120A5390400323EE9 /* RappiMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C29020A5390400323EE9 /* RappiMoviesUITests.swift */; };
+		EC29C2A320A53DEB00323EE9 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C2A120A53DEB00323EE9 /* DashboardViewController.swift */; };
+		EC29C2A420A53DEB00323EE9 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC29C2A220A53DEB00323EE9 /* DashboardViewController.xib */; };
+		EC29C2A820A53DFE00323EE9 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C2A620A53DFE00323EE9 /* DashboardTableViewCell.swift */; };
+		EC29C2A920A53DFE00323EE9 /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC29C2A720A53DFE00323EE9 /* DashboardTableViewCell.xib */; };
+		EC29C2AC20A5420B00323EE9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C2AB20A5420B00323EE9 /* Movie.swift */; };
+		EC29C2B220A549AA00323EE9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C2B120A549AA00323EE9 /* DataService.swift */; };
+		EC29C2B620A54ED200323EE9 /* DateFormatter+RappiMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C2B520A54ED200323EE9 /* DateFormatter+RappiMovies.swift */; };
+		EC29C2B820A54F0E00323EE9 /* UIcolor+RappiMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C2B720A54F0E00323EE9 /* UIcolor+RappiMovies.swift */; };
+		EC29C2BA20A5502B00323EE9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29C2B920A5502A00323EE9 /* ActivityIndicator.swift */; };
+		FFB0C0D343A28FBEECC42F32 /* Pods_RappiMoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14FAE99E99622E947949F57 /* Pods_RappiMoviesUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC29C28220A5390400323EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC29C26220A5390200323EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC29C26920A5390200323EE9;
+			remoteInfo = RappiMovies;
+		};
+		EC29C28D20A5390400323EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC29C26220A5390200323EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC29C26920A5390200323EE9;
+			remoteInfo = RappiMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D77FE8D79C1CAAA6B8DC66E /* Pods-RappiMoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappiMoviesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RappiMoviesUITests/Pods-RappiMoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25C965F47A0C4BA2382541EE /* Pods_RappiMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RappiMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D72181B333CC45635885172 /* Pods-RappiMoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappiMoviesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RappiMoviesUITests/Pods-RappiMoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		838D93A26A551F7B007624A0 /* Pods-RappiMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappiMovies.release.xcconfig"; path = "Pods/Target Support Files/Pods-RappiMovies/Pods-RappiMovies.release.xcconfig"; sourceTree = "<group>"; };
+		9AF5484A4394B2A582AFB2AF /* Pods-RappiMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappiMovies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RappiMovies/Pods-RappiMovies.debug.xcconfig"; sourceTree = "<group>"; };
+		B14FAE99E99622E947949F57 /* Pods_RappiMoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RappiMoviesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B2AC1D44D8F6743958A5DA /* Pods-RappiMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappiMoviesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RappiMoviesTests/Pods-RappiMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B823179BE8E26CE8CA5A8BBF /* Pods-RappiMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappiMoviesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RappiMoviesTests/Pods-RappiMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC26BE7520AA27FB00A312E0 /* ImageDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewController.swift; sourceTree = "<group>"; };
+		EC26BE7620AA27FB00A312E0 /* ImageDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageDetailsViewController.xib; sourceTree = "<group>"; };
+		EC295BAB20A938F00063162E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EC295BAC20A938F00063162E /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EC29C26A20A5390200323EE9 /* RappiMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappiMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC29C26D20A5390200323EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC29C26F20A5390200323EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC29C27220A5390200323EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC29C27520A5390200323EE9 /* RappiMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RappiMovies.xcdatamodel; sourceTree = "<group>"; };
+		EC29C27720A5390400323EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC29C27A20A5390400323EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC29C27C20A5390400323EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC29C28120A5390400323EE9 /* RappiMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappiMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC29C28520A5390400323EE9 /* RappiMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMoviesTests.swift; sourceTree = "<group>"; };
+		EC29C28720A5390400323EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC29C28C20A5390400323EE9 /* RappiMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappiMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC29C29020A5390400323EE9 /* RappiMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMoviesUITests.swift; sourceTree = "<group>"; };
+		EC29C29220A5390400323EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC29C2A120A53DEB00323EE9 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		EC29C2A220A53DEB00323EE9 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		EC29C2A620A53DFE00323EE9 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		EC29C2A720A53DFE00323EE9 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		EC29C2AB20A5420B00323EE9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		EC29C2B120A549AA00323EE9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EC29C2B520A54ED200323EE9 /* DateFormatter+RappiMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+RappiMovies.swift"; sourceTree = "<group>"; };
+		EC29C2B720A54F0E00323EE9 /* UIcolor+RappiMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+RappiMovies.swift"; sourceTree = "<group>"; };
+		EC29C2B920A5502A00323EE9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		F012290CA88D48C1B421C42F /* Pods_RappiMoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RappiMoviesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC29C26720A5390200323EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8A0EA9DADE805108A69F1B /* Pods_RappiMovies.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29C27E20A5390400323EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0CA3EDB869A47D0EB9001B /* Pods_RappiMoviesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29C28920A5390400323EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB0C0D343A28FBEECC42F32 /* Pods_RappiMoviesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EDC825472C375850902E9BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C965F47A0C4BA2382541EE /* Pods_RappiMovies.framework */,
+				F012290CA88D48C1B421C42F /* Pods_RappiMoviesTests.framework */,
+				B14FAE99E99622E947949F57 /* Pods_RappiMoviesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2B120F2B1AA41CF42CC0E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5484A4394B2A582AFB2AF /* Pods-RappiMovies.debug.xcconfig */,
+				838D93A26A551F7B007624A0 /* Pods-RappiMovies.release.xcconfig */,
+				B7B2AC1D44D8F6743958A5DA /* Pods-RappiMoviesTests.debug.xcconfig */,
+				B823179BE8E26CE8CA5A8BBF /* Pods-RappiMoviesTests.release.xcconfig */,
+				0D77FE8D79C1CAAA6B8DC66E /* Pods-RappiMoviesUITests.debug.xcconfig */,
+				7D72181B333CC45635885172 /* Pods-RappiMoviesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC26BE7420AA27D800A312E0 /* ImagaDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EC26BE7520AA27FB00A312E0 /* ImageDetailsViewController.swift */,
+				EC26BE7620AA27FB00A312E0 /* ImageDetailsViewController.xib */,
+			);
+			path = ImagaDetail;
+			sourceTree = "<group>";
+		};
+		EC295BAA20A938D40063162E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EC295BAB20A938F00063162E /* DetailViewController.swift */,
+				EC295BAC20A938F00063162E /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		EC29C26120A5390200323EE9 = {
+			isa = PBXGroup;
+			children = (
+				EC29C26C20A5390200323EE9 /* RappiMovies */,
+				EC29C28420A5390400323EE9 /* RappiMoviesTests */,
+				EC29C28F20A5390400323EE9 /* RappiMoviesUITests */,
+				EC29C26B20A5390200323EE9 /* Products */,
+				DD2B120F2B1AA41CF42CC0E6 /* Pods */,
+				7EDC825472C375850902E9BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC29C26B20A5390200323EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C26A20A5390200323EE9 /* RappiMovies.app */,
+				EC29C28120A5390400323EE9 /* RappiMoviesTests.xctest */,
+				EC29C28C20A5390400323EE9 /* RappiMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC29C26C20A5390200323EE9 /* RappiMovies */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C2AD20A543CA00323EE9 /* Utilities */,
+				EC29C2AA20A541CD00323EE9 /* Model */,
+				EC29C29F20A53DBD00323EE9 /* Base */,
+				EC29C29E20A53DB100323EE9 /* Views */,
+				EC29C26F20A5390200323EE9 /* ViewController.swift */,
+				EC29C27120A5390200323EE9 /* Main.storyboard */,
+				EC29C27720A5390400323EE9 /* Assets.xcassets */,
+				EC29C27920A5390400323EE9 /* LaunchScreen.storyboard */,
+				EC29C27C20A5390400323EE9 /* Info.plist */,
+				EC29C27420A5390200323EE9 /* RappiMovies.xcdatamodeld */,
+			);
+			path = RappiMovies;
+			sourceTree = "<group>";
+		};
+		EC29C28420A5390400323EE9 /* RappiMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C28520A5390400323EE9 /* RappiMoviesTests.swift */,
+				EC29C28720A5390400323EE9 /* Info.plist */,
+			);
+			path = RappiMoviesTests;
+			sourceTree = "<group>";
+		};
+		EC29C28F20A5390400323EE9 /* RappiMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C29020A5390400323EE9 /* RappiMoviesUITests.swift */,
+				EC29C29220A5390400323EE9 /* Info.plist */,
+			);
+			path = RappiMoviesUITests;
+			sourceTree = "<group>";
+		};
+		EC29C29E20A53DB100323EE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC26BE7420AA27D800A312E0 /* ImagaDetail */,
+				EC295BAA20A938D40063162E /* Detail */,
+				EC29C2A020A53DCA00323EE9 /* Dashboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC29C29F20A53DBD00323EE9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C26D20A5390200323EE9 /* AppDelegate.swift */,
+				EC29C2B120A549AA00323EE9 /* DataService.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EC29C2A020A53DCA00323EE9 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C2A520A53DEF00323EE9 /* Cell */,
+				EC29C2A120A53DEB00323EE9 /* DashboardViewController.swift */,
+				EC29C2A220A53DEB00323EE9 /* DashboardViewController.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		EC29C2A520A53DEF00323EE9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C2A620A53DFE00323EE9 /* DashboardTableViewCell.swift */,
+				EC29C2A720A53DFE00323EE9 /* DashboardTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EC29C2AA20A541CD00323EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C2AB20A5420B00323EE9 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC29C2AD20A543CA00323EE9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EC29C2B520A54ED200323EE9 /* DateFormatter+RappiMovies.swift */,
+				EC29C2B720A54F0E00323EE9 /* UIcolor+RappiMovies.swift */,
+				EC29C2B920A5502A00323EE9 /* ActivityIndicator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC29C26920A5390200323EE9 /* RappiMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC29C29520A5390400323EE9 /* Build configuration list for PBXNativeTarget "RappiMovies" */;
+			buildPhases = (
+				4A6571E9E26D4130EE75CDD0 /* [CP] Check Pods Manifest.lock */,
+				EC29C26620A5390200323EE9 /* Sources */,
+				EC29C26720A5390200323EE9 /* Frameworks */,
+				EC29C26820A5390200323EE9 /* Resources */,
+				CB6B959CC3ECEC4B74D8DA52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappiMovies;
+			productName = RappiMovies;
+			productReference = EC29C26A20A5390200323EE9 /* RappiMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC29C28020A5390400323EE9 /* RappiMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC29C29820A5390400323EE9 /* Build configuration list for PBXNativeTarget "RappiMoviesTests" */;
+			buildPhases = (
+				2C56D8934CCFF8E6AF527506 /* [CP] Check Pods Manifest.lock */,
+				EC29C27D20A5390400323EE9 /* Sources */,
+				EC29C27E20A5390400323EE9 /* Frameworks */,
+				EC29C27F20A5390400323EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC29C28320A5390400323EE9 /* PBXTargetDependency */,
+			);
+			name = RappiMoviesTests;
+			productName = RappiMoviesTests;
+			productReference = EC29C28120A5390400323EE9 /* RappiMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC29C28B20A5390400323EE9 /* RappiMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC29C29B20A5390400323EE9 /* Build configuration list for PBXNativeTarget "RappiMoviesUITests" */;
+			buildPhases = (
+				4B5F280D333558B7290030C0 /* [CP] Check Pods Manifest.lock */,
+				EC29C28820A5390400323EE9 /* Sources */,
+				EC29C28920A5390400323EE9 /* Frameworks */,
+				EC29C28A20A5390400323EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC29C28E20A5390400323EE9 /* PBXTargetDependency */,
+			);
+			name = RappiMoviesUITests;
+			productName = RappiMoviesUITests;
+			productReference = EC29C28C20A5390400323EE9 /* RappiMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC29C26220A5390200323EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Leonardo Mendez";
+				TargetAttributes = {
+					EC29C26920A5390200323EE9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EC29C28020A5390400323EE9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EC29C26920A5390200323EE9;
+					};
+					EC29C28B20A5390400323EE9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EC29C26920A5390200323EE9;
+					};
+				};
+			};
+			buildConfigurationList = EC29C26520A5390200323EE9 /* Build configuration list for PBXProject "RappiMovies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC29C26120A5390200323EE9;
+			productRefGroup = EC29C26B20A5390200323EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC29C26920A5390200323EE9 /* RappiMovies */,
+				EC29C28020A5390400323EE9 /* RappiMoviesTests */,
+				EC29C28B20A5390400323EE9 /* RappiMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC29C26820A5390200323EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC29C2A920A53DFE00323EE9 /* DashboardTableViewCell.xib in Resources */,
+				EC295BAE20A938F00063162E /* DetailViewController.xib in Resources */,
+				EC29C27B20A5390400323EE9 /* LaunchScreen.storyboard in Resources */,
+				EC29C27820A5390400323EE9 /* Assets.xcassets in Resources */,
+				EC29C27320A5390200323EE9 /* Main.storyboard in Resources */,
+				EC26BE7820AA27FB00A312E0 /* ImageDetailsViewController.xib in Resources */,
+				EC29C2A420A53DEB00323EE9 /* DashboardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29C27F20A5390400323EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29C28A20A5390400323EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C56D8934CCFF8E6AF527506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RappiMoviesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6571E9E26D4130EE75CDD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RappiMovies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5F280D333558B7290030C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RappiMoviesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6B959CC3ECEC4B74D8DA52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RappiMovies/Pods-RappiMovies-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RappiMovies/Pods-RappiMovies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC29C26620A5390200323EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC295BAD20A938F00063162E /* DetailViewController.swift in Sources */,
+				EC29C27620A5390200323EE9 /* RappiMovies.xcdatamodeld in Sources */,
+				EC29C2B620A54ED200323EE9 /* DateFormatter+RappiMovies.swift in Sources */,
+				EC29C27020A5390200323EE9 /* ViewController.swift in Sources */,
+				EC29C2AC20A5420B00323EE9 /* Movie.swift in Sources */,
+				EC29C2B820A54F0E00323EE9 /* UIcolor+RappiMovies.swift in Sources */,
+				EC26BE7720AA27FB00A312E0 /* ImageDetailsViewController.swift in Sources */,
+				EC29C26E20A5390200323EE9 /* AppDelegate.swift in Sources */,
+				EC29C2BA20A5502B00323EE9 /* ActivityIndicator.swift in Sources */,
+				EC29C2A320A53DEB00323EE9 /* DashboardViewController.swift in Sources */,
+				EC29C2A820A53DFE00323EE9 /* DashboardTableViewCell.swift in Sources */,
+				EC29C2B220A549AA00323EE9 /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29C27D20A5390400323EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC29C28620A5390400323EE9 /* RappiMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29C28820A5390400323EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC29C29120A5390400323EE9 /* RappiMoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC29C28320A5390400323EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC29C26920A5390200323EE9 /* RappiMovies */;
+			targetProxy = EC29C28220A5390400323EE9 /* PBXContainerItemProxy */;
+		};
+		EC29C28E20A5390400323EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC29C26920A5390200323EE9 /* RappiMovies */;
+			targetProxy = EC29C28D20A5390400323EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC29C27120A5390200323EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC29C27220A5390200323EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC29C27920A5390400323EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC29C27A20A5390400323EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC29C29320A5390400323EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC29C29420A5390400323EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC29C29620A5390400323EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF5484A4394B2A582AFB2AF /* Pods-RappiMovies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C8T355C66;
+				INFOPLIST_FILE = RappiMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RappiMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC29C29720A5390400323EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838D93A26A551F7B007624A0 /* Pods-RappiMovies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C8T355C66;
+				INFOPLIST_FILE = RappiMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RappiMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC29C29920A5390400323EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B2AC1D44D8F6743958A5DA /* Pods-RappiMoviesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C8T355C66;
+				INFOPLIST_FILE = RappiMoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RappiMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RappiMovies.app/RappiMovies";
+			};
+			name = Debug;
+		};
+		EC29C29A20A5390400323EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B823179BE8E26CE8CA5A8BBF /* Pods-RappiMoviesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C8T355C66;
+				INFOPLIST_FILE = RappiMoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RappiMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RappiMovies.app/RappiMovies";
+			};
+			name = Release;
+		};
+		EC29C29C20A5390400323EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D77FE8D79C1CAAA6B8DC66E /* Pods-RappiMoviesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C8T355C66;
+				INFOPLIST_FILE = RappiMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RappiMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RappiMovies;
+			};
+			name = Debug;
+		};
+		EC29C29D20A5390400323EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D72181B333CC45635885172 /* Pods-RappiMoviesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C8T355C66;
+				INFOPLIST_FILE = RappiMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RappiMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RappiMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC29C26520A5390200323EE9 /* Build configuration list for PBXProject "RappiMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC29C29320A5390400323EE9 /* Debug */,
+				EC29C29420A5390400323EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC29C29520A5390400323EE9 /* Build configuration list for PBXNativeTarget "RappiMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC29C29620A5390400323EE9 /* Debug */,
+				EC29C29720A5390400323EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC29C29820A5390400323EE9 /* Build configuration list for PBXNativeTarget "RappiMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC29C29920A5390400323EE9 /* Debug */,
+				EC29C29A20A5390400323EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC29C29B20A5390400323EE9 /* Build configuration list for PBXNativeTarget "RappiMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC29C29C20A5390400323EE9 /* Debug */,
+				EC29C29D20A5390400323EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC29C27420A5390200323EE9 /* RappiMovies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC29C27520A5390200323EE9 /* RappiMovies.xcdatamodel */,
+			);
+			currentVersion = EC29C27520A5390200323EE9 /* RappiMovies.xcdatamodel */;
+			path = RappiMovies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC29C26220A5390200323EE9 /* Project object */;
+}
