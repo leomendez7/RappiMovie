@@ -4,7 +4,11 @@
 
 ¿Las capas de la aplicación (por ejemplo capa de persistencia, vistas, red, negocio, etc) y qué clases pertenecen a cual?
 
-R/ Tengo entendido que la arquitectura que requiere capas es VIPER la cual no uso en este proyecto solo uno MVC.
+R/ Interpreto cada una de las capas que se refiere a los frameworks o clases usados en iOS:
+Persistencia: Core Data
+Vistas: UIKit
+red: URL Request
+Negocio: Model
 
 
 La responsabilidad de cada clase creada.
